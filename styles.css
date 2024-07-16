@@ -1,0 +1,54 @@
+body {
+    font-family: cursive;
+    background-color: #9d2323de;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.gallery-container {
+    width: 70%;
+    max-width: 10000px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.tab-button {
+    background-color: #007BFF;
+    color: white;
+    border:  4mm ridge rgba(211, 220, 50, .6);
+    padding: 20px 30px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tab-button:hover {
+    background-color: #001831;
+}
+
+.gallery {
+    display: inline-block ;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-group {
+    display: none;
+}
+
+.image-wrapper {
+    margin: 20px;
+}
+
+.image-wrapper img {
+    width: 100%;
+    max-width: 400px;
+    height: 200px;
+    border-radius: 5px;
+}
